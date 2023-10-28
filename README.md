@@ -14,9 +14,23 @@ Pre-requisites:
 	- List
 
 ###   Encryption Function 
+	
+Function has for loop implementing algorithm below
+
+	i) e = (a + n) % 26
+
+	ii) e = (a - n) % 26
 
 
 ###  Brute Force Decryption Function
 		
-Uses function inheretance 
+Function holds loop that generates all possible 
+cipher combinations 
+
+###  Clean decrypt function
+
+Function has for loop implementing algorithm below
+
+	Cipher(n) = De - cipher(26 - n)
+
 
