@@ -84,8 +84,9 @@ def decrypt_clean():
 	decrypted_cipher = ""
 
 	#loop implementing Cipher(n)=De-cipher(26-n) algorithm
-	# *** Possible bug loop does not decipher Uppercase chr ***
-	for ch in encrypted_cipher:
+	# *** Possible bug loop does not decipher Uppercase chr ***	
+	#resolved bug by adding change to lowercase function .lower()
+	for ch in encrypted_cipher.lower():
 		if ch in abc_set:
 			position = abc_set.find(ch)
 			new_pos = (position - cipher_key) % 26
