@@ -4,7 +4,7 @@ Refreshing Python skills
 
 Building basic projects:
 
-## 1) Ceaser Cipher
+## 1.0) Ceaser Cipher
 
 Pre-requisites:
 	
@@ -33,4 +33,6 @@ Function has for loop implementing algorithm below
 
 	Cipher(n) = De - cipher(26 - n)
 
+
+## 1.1) Ceaser Cipher OOP Model
 
